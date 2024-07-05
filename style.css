@@ -181,12 +181,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #FFF4DE;
-    padding-bottom: 10vh;
+    padding-bottom: 2vh;
   }
 
   .section-two-left-content{
     width: 36vw;
-    padding: 2vh 6vw 6vh;
+    padding: 2vh 6vw 2vh;
     margin-right: 10vw;
     height: 20vh;
     font-size: 100%;
