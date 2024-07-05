@@ -270,7 +270,7 @@ body {
   }
 
   .floorplan-image{
-    max-width: 500px;
+    max-width: 32vw;
   }
 
   .block {
@@ -289,8 +289,47 @@ body {
 
   }
   .list-width{
-    width: 700px;
+    width: 40VW;
   }
   .section-five-left{
     width: 36vw;
+  }
+
+  @media only screen and (max-width: 1600px) {
+   
+    .form{
+      top: 10%;
+  }
+  .form-card{
+    height: 49%;
+    min-height: 300px;
+  }
+  .input{
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    padding: 1vh 1vw;
+    width: 16vw;
+    min-width: 260px;
+
+  }
+  .nav-content{
+    width: 60%;
+  }
+  .headings{
+    font-size: 240%;
+  }
+  .headings-two{
+    font-size: 160%;
+  }
+  }
+
+  @media only screen and (max-width: 1300px) {
+   
+    .form{
+      top: 3%;
+  }
+  .form-card{
+    height: 49%;
+    min-height: 300px;
+  }
   }
