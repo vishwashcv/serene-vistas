@@ -321,6 +321,10 @@ body {
   .headings-two{
     font-size: 160%;
   }
+  .section-four-content-part{
+    width: 36vw;
+    padding-right: 4vw;
+  }
   }
 
   @media only screen and (max-width: 1300px) {
