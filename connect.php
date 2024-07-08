@@ -18,6 +18,5 @@ $message = isset($_POST['message']) ? $_POST['message'] : '';
 		$stmt->close();
 		$conn->close();
 	}
-	
-	header("Location: index.php");
+
 ?>
