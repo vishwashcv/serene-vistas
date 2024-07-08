@@ -422,6 +422,16 @@ body {
     .input{
     min-width: 60vw;
     }
+    .headings{
+      font-size: 200%;
+    }
+    .headings-two{
+      font-size: 140%;
+    }
+    .headings-three{
+      font-size: 120%;
+      font-weight: 100;
+    }
     .section-two{
       display: flex;
       flex-direction: column;
@@ -429,7 +439,7 @@ body {
     }
     .section-two{
       height: 140vh;
-      padding-top: 10vh;
+      padding-top: 200px;
     }
     .section-two-left-content{
       margin-bottom: 10vh;
