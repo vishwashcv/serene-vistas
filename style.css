@@ -494,3 +494,14 @@ body {
     }
   }
 
+
+  @media only screen and (max-width: 500px) {
+   
+    .input{
+    min-width: 70vw;
+    }
+    .section-two{
+      height: 120vh;
+      padding-top: 200px;
+    }
+  }
