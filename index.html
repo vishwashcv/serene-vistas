@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 
 <body>
@@ -51,7 +52,6 @@
 
         <div class="mySlides fade">
             <img src="./images/slide/3.png" style="width:100%">
-            <div class="text">Caption Three</div>
         </div>
 
     </div>
@@ -61,12 +61,24 @@
         <span class="dot"></span>
     </div>
 
+    <div class="form-2">
+        <form class="form-card" action="/action_page.php">
+            <div class="title-contact-us">Contact Us</div>
+            <input class="input" type="text" id="fname" placeholder="Your Name"><br><br>
+            <input class="input" type="text" id="email" placeholder="Email Address"><br><br>
+            <input class="input" type="text" id="email" placeholder="Mobile Number"><br><br>
+            <textarea class="input textarea" type="text" id="Message" placeholder="Message"></textarea><br><br>
+            <input class="submit-button" type="submit" value="Send a message">
+        </form>
+    </div>
+
     <div class="section-two">
         <div class="section-two-left-content">
             <div>THE PROJECT OVERVIEW</div>
             <h1 class="headings">THE PERFECT LIVING 
                 EXPERIENCE</h1>
-            <div class="text-content">Welcome to SERENE VISTAS, where luxury meets tranquility. Our 3- and 4-BHK residences near Aramghar X
+            <div class="text-content w-80">Welcome to SERENE VISTAS, where luxury meets tranquility. Our 3- and 4-BHK
+                residences near Aramghar X
                 roads offer opulent living with 280 homes featuring spacious interiors, distinctive architecture, and
                 modern conveniences. Meticulously planned for convenience, enjoy eye-catching exteriors, top-quality
                 specifications, and a 5-floored clubhouse with over 30 leisure amenities.</div>
@@ -80,127 +92,269 @@
                 <div class="text-content">Over 30 leisure amenities offered at the 5-floored clubhouse.</div>
             </div>
         </div>
-        <div class="section-two-right-content"><img src="./images/sec-two-img.png" /></div>
+        <div class="section-two-right-content"><img class="section-two-img" src="./images/sec-two-img.png" /></div>
     </div>
 
 
     <div class="section-three flex">
-        <div>280
-           <br/> FLATS</div>
-        <div>3&4 BHK
-            <br/> LUXURY FLATS</div>
-        <div>2
-            <br/>BLOCKS</div>
-        <div>30+
-            <br/> AMENITIES</div>
-        <div>5 FLOOR
-            <br/> CLUBHOUSE</div>
-        <div>3 LEVEL
-            <br/> PARKING</div>
+        <div class="p-20">280
+            <br /> FLATS
+        </div>
+        <div  class="p-20">3&4 BHK
+            <br /> LUXURY FLATS
+        </div>
+        <div  class="p-20">2
+            <br />BLOCKS
+        </div>
+        <div  class="p-20">30+
+            <br /> AMENITIES
+        </div>
+        <div  class="p-20">5 FLOOR
+            <br /> CLUBHOUSE
+        </div>
+        <div  class="p-20">3 LEVEL
+            <br /> PARKING
+        </div>
 
     </div>
 
     <div class="section-four bg-color">
         <div class="headings">MAIN FEATURES</div>
         <div class="headings-two">Our main property features</div>
-        <div class="text-content">At the heart of our portfolio lies our flagship property, an epitome of luxury and elegance. With unparalleled amenities and exquisite design, it stands as a testament to sophisticated living in the heart of the city.</div>   
+        <div class="text-content w-60 f-70">At the heart of our portfolio lies our flagship property, an epitome of luxury and
+            elegance. With unparalleled amenities and exquisite design, it stands as a testament to sophisticated living
+            in the heart of the city.</div>
     </div>
 
     <div class="section-four-content">
-        <div class="flex"> 
+        <div class="flex section-four-box">
             <div class="bg-color flex center section-four-content-part">
-                <img  class="icon-features" src="./images/features/1.png" /> 
+                <img class="icon-features" src="./images/features/1.png" />
                 <div>
-                <div class="headings-three">Smart living</div>
-                <div class="text-content">Experience the pinnacle of smart living at SERENE VISTAS. Our apartments seamlessly blend modern technology for enhanced convenience and security, redefining contemporary living.</div>
-                </div>
-            </div> 
-             <div class="bg-color flex center section-four-content-part">
-                <img class="icon-features"  src="./images/features/2.png" />
-                <div>
-                    <div class="headings-three">Eco construction</div>
-                    <div class="text-content">Embrace eco-conscious living at SERENE VISTAS. Our eco-constructed apartments combine sustainability with modern comfort, offering a harmonious lifestyle amidst nature's embrace..</div>
+                    <div class="headings-three">Smart living</div>
+                    <div class="text-content f-70">Experience the pinnacle of smart living at SERENE VISTAS. Our apartments
+                        seamlessly blend modern technology for enhanced convenience and security, redefining
+                        contemporary living.</div>
                 </div>
             </div>
-        </div> 
-        <div class="flex"> 
             <div class="bg-color flex center section-four-content-part">
-                <img class="icon-features"  src="./images/features/3.png" />
+                <img class="icon-features" src="./images/features/2.png" />
+                <div>
+                    <div class="headings-three">Eco construction</div>
+                    <div class="text-content f-70">Embrace eco-conscious living at SERENE VISTAS. Our eco-constructed
+                        apartments combine sustainability with modern comfort, offering a harmonious lifestyle amidst
+                        nature's embrace..</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex  section-four-box">
+            <div class="bg-color flex center section-four-content-part">
+                <img class="icon-features" src="./images/features/3.png" />
                 <div>
                     <div class="headings-three">Attractive location</div>
-                    <div class="text-content">Indulge in luxurious living at SERENE VISTAS, nestled in an attractive location. Enjoy the perfect blend of convenience and serenity, creating an unparalleled living experience.</div>
+                    <div class="text-content f-70">Indulge in luxurious living at SERENE VISTAS, nestled in an attractive
+                        location. Enjoy the perfect blend of convenience and serenity, creating an unparalleled living
+                        experience.</div>
                 </div>
-            </div> 
+            </div>
             <div class="bg-color flex center section-four-content-part">
-                <img class="icon-features"  src="./images/features/4.png" />
+                <img class="icon-features" src="./images/features/4.png" />
                 <div>
                     <div class="headings-three">Modern technology</div>
-                    <div class="text-content">Discover the fusion of luxury and innovation at SERENE VISTAS. Our residences boast modern technology, elevating convenience and comfort to redefine contemporary living standards.</div>
+                    <div class="text-content f-70">Discover the fusion of luxury and innovation at SERENE VISTAS. Our
+                        residences boast modern technology, elevating convenience and comfort to redefine contemporary
+                        living standards.</div>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="section-five flex">
-            <div class="p-20 section-five-left">
-                <div>THE PROJECT OVERVIEW</div>
-                <div class="headings-two">TYPICAL LAYOUT PLAN</div>
-                <div><img  class="floorplan-image" src="./images/floorplan 1.png" /></div>
-            </div>
-            <div class="p-20">
+        <div class="p-20 section-five-left">
+            <div>THE PROJECT OVERVIEW</div>
+            <div class="headings-two">TYPICAL LAYOUT PLAN</div>
+            <div><img class="floorplan-image" src="./images/floorplan 1.png" /></div>
+        </div>
+        <div class="p-20">
             <div class="list-width">
-                    <div class="headings-two">PROJECT FEATURES</div>
-                    <div class="headings-two">Smart Living at Serene Vistas-Modern AMENITIES Await Your Arrival</div>
-                    <div class="text-content">At Serene Vistas, discover the epitome of smart living, where modern amenities intertwine seamlessly to create a refined and comfortable lifestyle.</div>
-                        <div class="flex">
-                                <div class="p-r-20">
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Majestic Elevation</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">3 Floors For Parking</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Ventilated Interiors</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">24/7 Water Supply</div>
-                                    </div>
-                                </div>
-                                <div class="p-20">
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Passenger & Service Lifts</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Power Back Up</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Security System</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Visitor Waiting Area</div>
-                                    </div>
-                                </div>
-                                <div class="p-20">
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Community Centre</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Premium Fittings</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">3 Level Car Parking</div>
-                                    </div>
-                                    <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
-                                        <div class="text-content">Laundry Facility</div>
-                                    </div>
-                                </div>
+                <div class="headings-two">PROJECT FEATURES</div>
+                <div class="headings-two">Smart Living at Serene Vistas-Modern AMENITIES Await Your Arrival</div>
+                <div class="text-content w-80">At Serene Vistas, discover the epitome of smart living, where modern amenities
+                    intertwine seamlessly to create a refined and comfortable lifestyle.</div>
+                <div class="flex column">
+                    <div class="p-r-20">
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Majestic Elevation</div>
                         </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">3 Floors For Parking</div>
+                        </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Ventilated Interiors</div>
+                        </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">24/7 Water Supply</div>
+                        </div>
+                    </div>
+                    <div class="p-r-20 column">
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Passenger & Service Lifts</div>
+                        </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Power Back Up</div>
+                        </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Security System</div>
+                        </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Visitor Waiting Area</div>
+                        </div>
+                    </div>
+                    <div class="p-r-20 column">
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Community Centre</div>
+                        </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Premium Fittings</div>
+                        </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">3 Level Car Parking</div>
+                        </div>
+                        <div class="icon-list flex"> <img class="icon" src="./images/tick-icon.svg" />
+                            <div class="text-content">Laundry Facility</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    <div>
+        <div>
 
         </div>
+    </div>
+
+    <div class="section-four-title">
+        <div class="headings-small">NEARBY AREAS</div>
+        <div class="headings-two ">NEIGHBORHOODS</div>
+    </div>
+
+    <div class="flex section-six">
+        <img class="location-img" src="./images/location.jpg" />
+        <div>
+            <div>
+                <div class="flex">
+                    <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                        <div class="text-content">02 min - PVNR Expressway</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex">
+                    <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                        <div class="text-content">06 min - Agricultural University</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex">
+                    <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                        <div class="text-content">07 min - Zoo Park</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">07 min - Falaknuma Palace</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">07 min - Flipkart Wholesale - Walmart</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">10 min - Outer Ring Road</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">10 min - Mehdipatnam</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">12 min - Golkonda Fort</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">15 min - Charminar</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">15 min - International Airport</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">20 min - Apollo Hospitals</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content"> 20 min - Hussain Sagar</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">25 min - Gachibowli
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex">
+                        <div class="icon-list flex"> <img class="icon" src="./images/clock-icon.svg" />
+                            <div class="text-content">25 min - HITEC City
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+    <div class="form-2 form-3">
+        <form class="form-card" action="/action_page.php">
+            <div class="title-contact-us">Contact Us</div>
+            <input class="input" type="text" id="fname" placeholder="Your Name"><br><br>
+            <input class="input" type="text" id="email" placeholder="Email Address"><br><br>
+            <input class="input" type="text" id="email" placeholder="Mobile Number"><br><br>
+            <textarea class="input textarea" type="text" id="Message" placeholder="Message"></textarea><br><br>
+            <input class="submit-button" type="submit" value="Send a message">
+        </form>
     </div>
 </body>
 

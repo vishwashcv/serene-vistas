@@ -295,6 +295,50 @@ body {
     width: 36vw;
   }
 
+  .form-2{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF4DE;
+    display: none ;
+  }
+
+  .section-two-img{
+    height: 26vw;
+  }
+
+  .section-six{
+    display: flex;
+    justify-content: center;
+    padding: 4vh 4vw;
+    background-color: #F7EEDB;
+  }
+
+  .location-img{
+    display: flex;
+    padding: 4vh 12vw 4vh 0;
+    height: 40%;
+    width: 40%;
+  }
+
+  .section-four-title{
+    padding-left: 10vw;
+  }
+
+  .headings-small{
+    font-size: 120%;
+  }
+
+  .form-3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  
+ 
+  
+
   @media only screen and (max-width: 1600px) {
    
     .form{
@@ -329,11 +373,117 @@ body {
 
   @media only screen and (max-width: 1300px) {
    
-    .form{
-      top: 3%;
-  }
+  .form{
+    top: 3%;
+    }
   .form-card{
     height: 49%;
     min-height: 300px;
   }
   }
+
+
+  
+  @media only screen and (max-width: 1115px) {
+   
+    .form{
+      top: 2%;
+  }
+  .form-card{
+    height: 30%;
+    min-height: 100px;
+  }
+  
+  .textarea {
+    height: 25%;
+  }
+  }
+
+  
+  @media only screen and (max-width: 900px) {
+    body{
+      max-width: 100vw;
+    }
+
+    .nav-content{
+      display: none;
+    }
+    .form{
+      display: none;
+    }
+    .form-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .form-card{
+      margin-bottom: 40px;
+    }
+    .input{
+    min-width: 60vw;
+    }
+    .section-two{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .section-two{
+      height: 140vh;
+      padding-top: 10vh;
+    }
+    .section-two-left-content{
+      margin-bottom: 10vh;
+      width: 72vw;
+    }
+    .section-two-img{
+      display: block;
+      margin: 30vh 0 0 0;
+      height: 50%;
+    }
+    .text-content{
+      font-size: 100%;
+    }
+    .w-80{
+      width: 80vw;
+    }
+    .w-60{
+      width: 60vw;
+    }
+    .f-70{
+      font-size: 80%;
+    }
+    .icon-features{
+      width: 60px;
+      margin: 0 4vw;
+    }
+    .section-four-box{
+      flex-direction: column;
+    }
+    .location-img{
+      width: 88vw;
+    }
+    .section-three{
+      flex-direction: column;
+      justify-content: space-evenly;
+      min-height: 100vh;
+    }
+    .section-four-content-part{
+      margin: 4vh 2vw;
+      padding: 2vh 4vw 2vh 1vw;
+      width: 80vw;
+      font-size: 90%;
+    }
+    .section-five{
+      flex-direction: column;
+    }
+    .floorplan-image{
+      min-width: 72vw;
+    }
+    .column{
+      flex-direction: column;
+    }
+    .section-six{
+      flex-direction: column;
+    }
+  }
+
