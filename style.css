@@ -429,10 +429,6 @@ body {
     .headings-two{
       font-size: 140%;
     }
-    .headings-three{
-      font-size: 120%;
-      font-weight: 100;
-    }
     .section-two{
       display: flex;
       flex-direction: column;
