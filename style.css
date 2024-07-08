@@ -440,6 +440,9 @@ footer{
   padding: 4vh 0 4vh 0;
   
 }
+.m-slide{
+  display: none;
+}
 
 
 @media only screen and (max-width: 1600px) {
@@ -639,5 +642,11 @@ footer{
   .section-two{
     height: 120vh;
     padding-top: 200px;
+  }
+  .d-slide{
+    display: none;
+  }
+  .m-slide{
+    display: flex;
   }
 }
