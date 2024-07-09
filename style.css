@@ -78,6 +78,10 @@ float: right;
   min-height: 440px;
   width: 20vw;
   min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
